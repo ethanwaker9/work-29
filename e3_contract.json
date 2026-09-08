@@ -1,0 +1,218 @@
+{
+ "runs": [
+  {
+   "param": "PG",
+   "method": "AP",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 95.24505108827725,
+   "time_per_gate_ms": 464.61000530866954,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 2217108,
+   "ntt": 1478072,
+   "brk_MB": 1195.63776,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "GINX",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 293.4324146201834,
+   "time_per_gate_ms": 1431.3776322935776,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 6855840,
+   "ntt": 4570560,
+   "brk_MB": 115.70688,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "LMKCDEY",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 75.47469138354063,
+   "time_per_gate_ms": 368.16922626117383,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 1605042,
+   "ntt": 1146989,
+   "brk_MB": 19.636992,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "FINAL",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 168.95564766041934,
+   "time_per_gate_ms": 824.1738910264357,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 1714557,
+   "ntt": 2286076,
+   "brk_MB": 28.937088,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "XZD",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 60.026515793055296,
+   "time_per_gate_ms": 292.81227216124535,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 572283,
+   "ntt": 763044,
+   "brk_MB": 15.44832,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "Ours",
+   "width": 8,
+   "gates": 205,
+   "free_gates": 33,
+   "time_s": 49.01571874413639,
+   "time_per_gate_ms": 239.10106704456777,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 433233,
+   "ntt": 577644,
+   "brk_MB": 9.828864,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "Ours",
+   "width": 32,
+   "gates": 853,
+   "free_gates": 129,
+   "time_s": 197.01413595071062,
+   "time_per_gate_ms": 230.9661617241625,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 1802241,
+   "ntt": 2402988,
+   "brk_MB": 9.828864,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  },
+  {
+   "param": "PG",
+   "method": "XZD",
+   "width": 32,
+   "gates": 853,
+   "free_gates": 129,
+   "time_s": 256.78571470221505,
+   "time_per_gate_ms": 301.0383525231126,
+   "correct": true,
+   "got": [
+    1,
+    55,
+    182
+   ],
+   "exp": [
+    1,
+    55,
+    182
+   ],
+   "ringmul": 2381319,
+   "ntt": 3175092,
+   "brk_MB": 15.44832,
+   "ksk_MB": 80.5248,
+   "ct_bytes": 1049
+  }
+ ],
+ "gas": [
+  {
+   "model": "onchain",
+   "ct_bytes": 1049,
+   "gas": 208184,
+   "storage_words": 66
+  },
+  {
+   "model": "handle",
+   "ct_bytes": 1049,
+   "gas": 32101,
+   "storage_words": 2
+  }
+ ]
+}
