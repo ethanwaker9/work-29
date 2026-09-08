@@ -1,6 +1,6 @@
 # More Efficient FHE Bootstrapping for Confidential Smart Contracts
 
-The repository contains an FHEW/TFHE style bootstrapping stack written, six blind rotation algorithms implemented on top of one shared
+The repository contains an FHEW/TFHE style bootstrapping stack, six blind rotation algorithms implemented on top of one shared
 ring layer, the validated failure probability analysis, the NTRU asymmetric variance estimator, and a confidential smart contract workload with the accompanying Solidity contracts.
 
 ## Files and Contents
